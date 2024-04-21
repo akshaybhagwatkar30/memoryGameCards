@@ -1,0 +1,47 @@
+.card {
+	position: relative;
+}
+
+.card-back {
+	background-image: url(../../public/images/card-back-img.jpeg);
+	background-position: center;
+	width: 100%;
+	height: 18vh;
+	display: block;
+	border-radius: 10px;
+}
+
+.card-front {
+	padding: 5vh 0;
+	background: #150050;
+	width: 100%;
+	height: 8vh;
+	font-size: 6vh;
+	border-radius: 10px;
+	color: white;
+}
+
+.card .card-front {
+	transform: rotateY(90deg);
+	transition: all ease-in 0.2s;
+	position: absolute;
+}
+
+.hide .card-front {
+	transform: rotateY(0deg);
+	transition-delay: 0.2s;
+}
+
+.card .card-back {
+	transition: all ease-in 0.2s;
+	transition-delay: 0.2s;
+}
+
+.hide .card-back {
+	transform: rotateY(90deg);
+	transition-delay: 0.2s;
+}
+
+.flex {
+	display: flex;
+}

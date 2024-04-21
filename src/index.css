@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+* {
+	font-family: Courgette;
+}
+
+body {
+	margin: 0;
+	letter-spacing: 3px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: black;
+	background-image: url(../public/images/background.webp);
+	color: #690d9b;
+}
